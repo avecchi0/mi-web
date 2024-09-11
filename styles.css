@@ -1,0 +1,240 @@
+/********************* Inicio de los estilos *********************/
+ ::-webkit-scrollbar {
+     width: 0px;
+}
+body {
+     background-color: #111;
+     color: #777;
+     font-family: monospace;
+     width: 500px;
+     margin: auto;
+     margin-top: 20px;
+}
+header {
+     margin: auto;
+     width: 498px;
+     text-align: center;
+     margin-bottom: 20px;
+     display: inline-block;
+     border-bottom: 1px dotted #333;
+}
+img#perfil {
+     width: 60px;
+     margin: auto;
+     border: 3px solid #999;
+     border-radius: 50% 20%;
+     display: inline-block;
+}
+h1 {
+     margin-left: 15px;
+     font-size: 40px;
+     font-weight: bold;
+     display: inline-block;
+}
+h2 {
+     font-size: 20px;
+     margin-left: 120px;
+}
+
+a {
+     text-decoration: none;
+     color: #777;
+}
+a:hover {
+     color: #ddd;
+}
+h3 {
+     font-size: 20px;
+     font-weight: bold;
+     text-align: left;
+     width: 100%;
+}
+footer {
+     font-size: 14px;
+     margin-top: 50px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+/* ######################### Inicio Sobre Mi ######################### */
+.sobremi {
+    margin: 20px 0px;
+    display: flex;
+}
+.sobremi p {
+    border-right: 1px dashed #333;
+    width: 290px;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.habilidades {
+    text-align: left;
+    width: 200px;
+}
+.habilidades h4 {
+     font-size: 16px;
+     font-weight: bold;
+     text-align: left;
+     padding-left: 20px;
+}
+.habilidades ul {
+    text-align:left;
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.habilidades li {
+    list-style-type: none;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+.habilidades img {
+     width: 16px;
+}
+/* ######################### Fin Sobre Mi ######################### */
+/* ######################### Inicio Tarjetas de Proyectos ######################### */
+.proyectos {
+}
+.card {
+     width: 90%;
+     height: auto;
+     margin: auto;
+     margin-top: 10px;
+     padding: 5px;
+     background-color: #151515;
+     border: 3px solid #333;
+     font-size: 12px;
+     color: #aaa;
+     text-align: center;
+    /* display: flex;
+     flex-wrap: wrap;
+    */
+}
+.card:hover {
+     border-color: #454545;
+}
+.card h4 {
+     font-size: 14px;
+     font-weight: bold;
+     color: #afafaf;
+}
+.card p {
+     text-align: left;
+     color: #aaa;
+}
+/* ######################### Fin Tarjetas de Proyectos ######################### */
+
+
+
+
+/* ######################### Inicio Redes Sociales ######################### */
+.rsociales{
+     margin: 25px 0px;
+     text-align: center;
+     padding: 10px;
+     border-top: 1px dotted #222;
+     border-bottom: 1px dotted #222;
+}
+.rsociales a{
+     margin: 10px 5px;
+}
+.rsociales a:hover {
+     color: #aaf;
+}
+/* ######################### Fin Redes Sociales ######################### */
+
+
+
+
+
+
+
+/* ######################### Inicio Contacto ######################### */
+.contact {
+     font-family: monospace;
+     font-size: 13px;
+     color: #aaa;
+     margin: 20px 0px;
+     text-align: center;
+}
+.contact input {
+     width: 90%;
+     height: 30px;
+     border: 1px solid #aaa;
+     border-radius: 10px;
+     padding: 0px 0px 0px 5px;
+     background-color: #101010;
+     color: #aaa;
+     margin: 3px 0px;
+}
+.contact input:hover {
+     border: 1px solid #333;
+}
+.contact textarea {
+     width: 90%;
+     height: 120px;
+     padding: 10px 0px 0px 5px;
+     border: 1px solid #aaa;
+     border-radius: 10px;
+     background-color: #101010;
+     color: #aaa;
+}
+.contact textarea:hover {
+     border: 1px solid #333;
+}
+.contact button {
+     width: 47%;
+     display: inline-block;
+     margin: 5px 5px;
+     background-color: #000;
+     color: #aaa;
+     height: 30px;
+     border: 1px solid #333;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: transform 0.3s ease-in-out;
+}
+.contact button:hover {
+     background-color: #010101;
+     border: 2px solid #000;
+}
+.contact button:active {
+     transform: scale(0.9);
+}
+/* ######################### Fin Contacto ######################### */
+.contactame {
+     font-size: 16px;
+     font-weight: bold;
+}
+/* ######################### Inicio Gracias ######################### */
+.volver {
+     width: 100%;
+     text-align: left;
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: #11cc55;
+     padding: 20px;
+     padding-left: 80px;
+     color: #fff;
+}
+.volver:hover {
+     background-color: #000;
+     color: #aaa;
+}
+.volver:active {
+     background-color: #333;
+     color: #fff;
+}
+.volverp {
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     margin-top: 90px;
+     text-align: center;
+     font-size: 20px;
+}
+/* ######################### Fin Gracias ######################### */
+/********************* Fin de los estilos *********************/
+
